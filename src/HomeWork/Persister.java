@@ -8,6 +8,6 @@ public class Persister implements Saveable{
     }
 
     public void save(){
-        System.out.println("Save user: " + user.getName());
+        System.out.println("Save: " + user.getName());
     }
 }

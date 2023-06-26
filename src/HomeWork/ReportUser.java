@@ -9,7 +9,7 @@ public class ReportUser implements Reportable{
     }
 
     public void report(){
-        System.out.println("Report for user: " + user.getName());
+        System.out.println("Report: " + user.getName());
     }
 
 }
